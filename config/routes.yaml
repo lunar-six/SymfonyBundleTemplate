@@ -1,0 +1,3 @@
+template_home.index:
+    path: /
+    defaults: { _controller: 'template_home.controller.index::index' }

@@ -1,0 +1,6 @@
+services:
+    template_home.controller.index:
+        class: Template\HomeBundle\Controller\IndexController
+        calls:
+            - [setTwig, ['@twig']]
+        public: true
