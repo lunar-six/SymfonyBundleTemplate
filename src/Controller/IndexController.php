@@ -13,7 +13,7 @@ class IndexController {
         $this->twig = $environment;
     }
 
-    public function index() {
+    public function index(): Response {
         return new Response($this->twig->render('@TemplateHome/index/index.html.twig'));
     }
 }
